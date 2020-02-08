@@ -1,0 +1,10 @@
+Let's first make sure your SystemC installation works fine.
+Try running the following command:
+
+source build_hello.sh
+
+Then run:
+
+./hello
+
+
