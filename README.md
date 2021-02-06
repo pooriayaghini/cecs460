@@ -6,7 +6,7 @@ export SYSTEMC_HOME=/PATH/TO/YOUR/SYSTEMC
 
 2- If you get an error regarding std::gets, do the following:
 
-sudo vim $SYSTEMC/include/systemc.h
+sudo vim $SYSTEMC_HOME/include/systemc.h
 
 #** replace this line 
 
