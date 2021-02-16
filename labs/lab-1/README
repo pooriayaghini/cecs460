@@ -1,9 +1,27 @@
-Let's first make sure your SystemC installation works fine.
-Try running the following command:
+SystemC Installation:
+---------------------
+
+git clone https://github.com/systemc/systemc-2.3.git
+
+cd systemc-2.3
+mkdir objdir
+cd objdir
+export CXX=g++
+../configure --prefix=/usr/local/systemc-2.3
+make
+sudo make install
+
+## Set the environmental variable for SystemC installation directory
+export SYSTEMC_HOME=/usr/local/systemc-2.3
+
+
+
+## Let's first make sure your SystemC installation works fine.
+## Try running the following command:
 
 source build_hello.sh
 
-Then run:
+## If the compilation was successful, Then run:
 
 ./hello
 
