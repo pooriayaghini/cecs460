@@ -7,6 +7,7 @@ cd systemc-2.3
 mkdir objdir
 cd objdir
 export CXX=g++
+sudo mkdir -p /usr/local/systemc-2.3
 ../configure --prefix=/usr/local/systemc-2.3
 make
 sudo make install
